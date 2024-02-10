@@ -12,6 +12,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto #1</title>
 
+    Regra do SPAN 
+    <style>
+        Span {
+            color:aqua
+        }
+    </style> 
+
+   
+
 </head>
 <body>
     <h1 id="inicio"> Módulo 1 - Primeiros Passos com HTML </h1>
@@ -119,6 +128,7 @@
         <li> <i>A letra I quando eu quis colocar algum texto em itálico</i>.</li>
         <li> A letra U <u>quando precisei sublinhar alguma coisa.</u></li>
         <li> STRONG quando eu precisei <strong>deixar parte do texto em negrito</strong> </li>
+        <b>negrito</b>
         <li> <ol><li> OL pra fazer</li>
                 <li> uma lista</li>
                 <li>com números</li>    </ol></li>
@@ -130,9 +140,12 @@
         <li> SUP pra adicionar um <sup>*</sup> quando vc precisar adicionar um * ou tiver que add um <sup>R</sup>, sei la </li>
         <li> Blockquote <blockquote> Esse é pra add uma citação, ai o texto fica mais centralizado e se destaca dos outros da pagina </blockquote></li>
         <li style="color:blue"> FONT é pra add cor no seu texto, tipo esse </li>
+        <li>font color <font color="red"> pra deixar o texto colorido </font></li>
+        <li> FONT FACE <font face="arial" > oioioioioio to na fonte arial  </font></li>
         <li>DEL é pra  <del>adicionar</del> <ins>riscar</ins> algo no texto</li>
         <li>ABBR, é melhor mostrar o exemplo: The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</li>
-
+        <li> testando a regra do <span>SPAN</span> que esta no head </li>
+        <li> quando usarmos o DIV, vamos estruturar o site na lateral.. o SPAN tbm mas com o SPAN nao vai comprometer a horizontal </li>
     </ul>
 
     <P> É melhor eu nunca perder esse <a href="https://www.w3schools.com/tags/tag_abbr.asp" target="_blank"> Manual </a></P>
@@ -150,6 +163,13 @@
     </ul>
 
         <p> <sup>*</sup> = Curso de HTML da DIO.me</p>
+
+        <p><a href="Formulario de Cadastro.html" target="_blank"> Exemplo de Formulario de Cadastro 1 </a></p>
+        <p><a href="Formulario 2 .html" target="_blank"> Exemplo de Formulario de Cadastro 2 </a></p>
+
+</body>
+
+</html>
 
          <p><a href="Formulario de Cadastro.html" target="_blank"> Formulario de Cadastro</a></p>
 </body>
