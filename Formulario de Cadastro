@@ -1,0 +1,21 @@
+-- Formulario de Cadastro com link 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Cadastro</title>
+</head>
+<body>
+    <form name="Cadastre-se" onsubmit="Alert('enviei o formulario')" method="POST" action="#" >
+        Nome: <input type="text" name="name" /><br>
+        Idade: <input type="number" name="Age"/><br>
+        Senha: <input type="password" name="password"/><br>
+        <button type="submit" target="_blank">Enviar</button>
+
+    </form>
+    
+    <p><small><a href="Projeto 1 - Criando meu primeiro HTML.html" target="_blank"> Voltar para pagina anterior </a></small></p>
+</body>
+</html>
