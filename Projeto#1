@@ -1,0 +1,152 @@
+-- Primeiro Projeto by Stefany Castelão dos Santos 
+
+-- Criando minha primeira Página Web Utilizando as Tags Aprendidas
+-- Utilizar todas as tags explicadas nas aulas: <h1> até <h6>, <p>, <mark>, <small>, <i>, <u>, <strong>, <ol>, <ul>, <li>, <a>, <hr>, <sub>, <sup>, <blockquote>;
+-- Utilizar novas tags sugeridas: <font>, <del>, <p>, <abbr> (a ideia é buscar estas tags na internet, entender como ela funciona e utilizar no texto).
+
+<html lang="pt-BR">
+
+<head>
+        <title> Projeto #1 </title>
+</head>
+<body>
+    <h1 id="inicio"> Módulo 1 - Primeiros Passos com HTML </h1>
+    <hr />
+
+    <h3>Índice - Temas abordados em aula<sup>*</sup> </h3>
+    <ol>
+        <li><a href="#01">História dos computadores</a></li>
+        <li><a href="#02">O que são <i>Clients</i>?</a></li>
+        <li><a href="#03">O que são <i>Servers</i>?</a></li>
+        <li><a href="#04">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#05">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#07">Adicionando marcadores, cores e outras funções</a></li>
+        <li><a href="#06">Links de referências</a></li>
+    </ol>
+    <img width="250" src="https://neilpatel.com/wp-content/uploads/2017/12/codigos-html-para-paginas-web.jpeg">
+
+
+    <h2 id="01"> História dos computadores</h2>
+    <small><a href="#inicio"> (voltar) </a></small>
+    <blockquote> <i> “O perigo real não é de computadores começarem a pensar como homens, mas de homens começarem a pensar como computadores.” - <strong> Sydney J. Harris </strong></i></blockquote>
+    <blockquote><img width="100" src="https://historicimages.com/cdn/shop/products/dfpa90201_1200x.jpeg?v=1484934114"></blockquote>
+    <p>Os computadores são máquinas que realizam cálculos e processam dados de forma <strong> automática.</strong> Eles surgiram da necessidade humana de <strong> contar e resolver problemas </strong> mais rapidamente. A história dos computadores pode ser dividida em quatro gerações, de acordo com as tecnologias usadas.</p>
+    <p>A primeira geração <strong>(1951-1959)</strong> usava válvulas eletrônicas e cartões perfurados. Eram <strong> grandes, caros e consumiam muita energia.</strong> <i> (Um exemplo é o ENIAC, que pesava 30 toneladas e ocupava uma sala inteira.)</i></p>
+    <p>A segunda geração <strong>(1959-1964) </strong> usava transistores e fitas magnéticas. <strong> Eram menores, mais rápidos e mais confiáveis.</strong> <i> (Um exemplo é o IBM 1401, que podia executar até 193 mil operações por segundo.) </i></p>
+    <p>A terceira geração <strong>(1964-1971)</strong> usava circuitos integrados e discos rígidos. <strong>Eram ainda menores, mais baratos e mais potentes.</strong> <i>( Um exemplo é o IBM System/360, que podia processar até 34 milhões de instruções por segundo.)</i></p>
+    <p>A quarta geração <strong> (1971-atualidade)</strong> usa microprocessadores e memórias RAM. São os <strong> computadores pessoais, portáteis e conectados à internet.</strong> <i> ( Um exemplo é o Apple II, que foi um dos primeiros a ter monitor, teclado e mouse.) </i></p>
+    <p>Os computadores continuam evoluindo e incorporando novas tecnologias, como <u> inteligência artificial, realidade virtual e computação quântica.</u> Eles são fundamentais para diversas áreas do conhecimento, da ciência à arte.</p>
+    <p>_____________________________________________________</p>
+    
+
+    <h2 id="02"> O que são <i>Clients</i>?</h2>
+    <small><a href="#inicio"> (voltar) </a></small>
+    <p>Clients no HTML são os navegadores que interpretam e exibem o código HTML que recebem dos servidores. </p>
+    <p>Eles também podem executar linguagens client-side, como JavaScript, que permitem criar páginas web dinâmicas e interativas.</p>
+    <p>Os clients se comunicam com os servidores usando o protocolo HTTP, que define as regras para trocar informações pela internet. </p>
+    <p>Eles podem enviar requisições HTTP para os servidores, solicitando recursos específicos, como arquivos, dados ou serviços.</p>
+    <p>Os servidores, por sua vez, podem responder às requisições HTTP dos clients, enviando os recursos solicitados ou realizando as ações necessárias. </p>
+    <h3> Mas então...Quais são os principais navegadores da internet? </h3>
+    <p>O ranking de navegadores atual está assim:    </p>
+    <ul>
+        <li><p>Google Chrome - 63,51%</p></li>
+        <li><p>Apple Safari - 20,43%</p></li>
+        <li><p>Microsoft Edge - 4,96%</p></li>
+        <li><p>Mozilla Firefox - 2,77%</p></li>
+        <li><p>Samsung Internet - 2,59%</p></li>
+        <li><p>Opera - 2,39%</p></li>
+    </ul>
+
+    <p>_____________________________________________________</p>
+
+
+    <h2 id="03">O que são <i>Servers</i>?</h2>
+    <small><a href="#inicio"> (voltar) </a></small>
+    <p>Servidores no HTML são os programas que armazenam, processam e entregam os arquivos HTML para os navegadores que os solicitam.</p>
+    <p>Eles usam o protocolo HTTP para se comunicar com os clientes e enviar os recursos solicitados, como páginas, imagens, scripts e estilos. </p>
+    <p>Os servidores no HTML podem ser estáticos ou dinâmicos, dependendo de como eles geram e atualizam os arquivos HTML. </p>
+    <p>Os servidores estáticos enviam os arquivos HTML tal como foram criados e armazenados, enquanto os servidores dinâmicos usam outros componentes, como servidores de aplicação e bancos de dados, para criar e modificar os arquivos HTML antes de enviá-los.</p>
+    <img width="250" src="https://galileo.phys.virginia.edu/compfac/courses/geek-hours/web-server.png">
+    <p>_____________________________________________________</p>
+
+
+    <h2 id="04"> Como é uma estrutura básica de um HTML?</h2>
+    <small><a href="#inicio"> (voltar) </a></small>
+    <p>Uma estrutura básica de um HTML é composta por quatro partes principais:</p>
+    <ul>
+        <li><p>A instrução <strong><i>DOCTYPE html </i></strong> que indica ao navegador que o documento segue os padrões do HTML5.</p></li>
+        <li><p>A tag <strong><i>html </i></strong> que envolve todo o código HTML do documento.</p></li>
+        <li><p>A tag <strong><i>head </i></strong> que contém informações sobre o documento, como o título, o idioma e os metadados.</p></li>
+        <li><p>A tag <strong><i>body </i></strong> que contém o conteúdo visível da página, como textos, imagens, links e formulários.</p></li>
+    </ul>
+    <p><sub><mark>Um exemplo de uma estrutura básica de um HTML:</mark></sub></p>
+    <img width="250" src="https://terminalroot.com.br/assets/img/html/estrutura-html.gif">
+    <p>_____________________________________________________</p>
+
+    <h2 id="05"> Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+    <small><a href="#inicio"> (voltar) </a></small>
+    <p>As listas ordenadas e não ordenadas são elementos do HTML que permitem criar listas de itens em uma página web.</p>
+    <p>A diferença entre elas é que as <mark>listas ordenadas usam números ou letras para indicar a ordem dos itens,</mark> enquanto as <mark>listas não ordenadas usam marcadores, como bolinhas ou quadrados, para indicar os itens sem uma ordem específica.</mark></p>
+    <p>As listas ordenadas são úteis para mostrar uma sequência lógica ou uma hierarquia de informações, enquanto as listas não ordenadas são úteis para mostrar uma coleção de itens sem uma relação de ordem.</p>
+    <h4><u>Exemplo:</u> uma lista <Strong>Ordenada</Strong></h4>
+    <ol><li> Branco</li>
+        <li>Preto</li>
+        <li>Azul</li>
+        <li>Amarelo</li>
+    </ol>
+    <h4><u>Exemplo:</u> uma lista <Strong>Não-Ordenada</Strong></h4>
+    <ul>
+        <li>Branco</li>
+        <li>Preto</li>
+        <li>Azul</li>
+        <li>Amarelo</li>
+    </ul>
+    <p>_____________________________________________________</p>
+
+    <h2 id="07"> Adicionando marcadores, cores e outras funções</h2>
+    <small><a href="#inicio"> (voltar) </a></small>
+    <p>Quando estamos montando um site, podemos utilizar alguns códigos que permite alterações de texto.</p>
+    <p>Vários já foram usados no decorrer dessa leitura, sendo eles:</p>
+    <ul>
+        <li> H* com diferentes números para formatar o Título</li>
+        <li> P para sinalizar os Parágrafos</li>
+        <li> Mark para sinalizar uma marcação de texto. <mark>Ou seja, para dar aquela sensação que algo foi grifado.</mark> </li>
+        <li> Small para colocar um texto pequeniniiiiiinho. Esse eu usei quando sinalizei o botão de <small>(voltar)</small></li>.
+        <li> <i>A letra I quando eu quis colocar algum texto em itálico</i>.</li>
+        <li> A letra U <u>quando precisei sublinhar alguma coisa.</u></li>
+        <li> STRONG quando eu precisei <strong>deixar parte do texto em negrito</strong> </li>
+        <li> <ol><li> OL pra fazer</li>
+                <li> uma lista</li>
+                <li>com números</li>    </ol></li>
+        <li> UL eu já to fazendo nessa lista aqui</li>
+        <li> LI pra inserir textos nas listas</li>
+        <li> A pra definir um Hiperlink, como no <a href="#inicio"> Indice </a></li>
+        <li> Hr pra colocar aquela linha pra separar o Titulo do restante do conteúdo</li>
+        <li> SUB <sub> é pra adicionar um subtitulo!!  </sub></li>
+        <li> SUP pra adicionar um <sup>*</sup> quando vc precisar adicionar um * ou tiver que add um <sup>R</sup>, sei la </li>
+        <li> Blockquote <blockquote> Esse é pra add uma citação, ai o texto fica mais centralizado e se destaca dos outros da pagina </blockquote></li>
+        <li style="color:blue"> FONT é pra add cor no seu texto, tipo esse </li>
+        <li>DEL é pra  <del>adicionar</del> <ins>riscar</ins> algo no texto</li>
+        <li>ABBR, é melhor mostrar o exemplo: The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</li>
+
+    </ul>
+
+    <P> É melhor eu nunca perder esse <a href="https://www.w3schools.com/tags/tag_abbr.asp" target="_blank"> Manual </a></P>
+    <p>_____________________________________________________</p>
+
+    <h2 id="06"> Links de referências</h2>
+    <small><a href="#inicio"> (voltar) </a></small>
+    <ul>
+        <li><a href="http://dio.me" target="_blank">http://dio.me</a></li>
+        <li><a href="http://w3c.org"target="_blank">http://w3c.org</a></li>
+        <li><a href="https://www.portalinsights.com.br/perguntas-frequentes/quais-sao-os-3-principais-navegadores-da-internet" target="_blank">https://www.portalinsights.com.br</a></li>
+        <li><a href="https://aprendendoacodar.com.br/estrutura-basica-html/"target="_blank">https://aprendendoacodar.com.br</a></li>
+        <li><a href="https://www.luis.blog.br/listas-ordenadas-nao-ordenadas-e-de-definicao.html"target="_blank">https://www.luis.blog.br</a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Learn/Server-side/First_steps/Client-Server_overview"target="_blank">https://developer.mozilla.org</a></li>
+    </ul>
+
+        <p> <sup>*</sup> = Curso de HTML da DIO.me</p>
+
+</body>
+
+</html>
