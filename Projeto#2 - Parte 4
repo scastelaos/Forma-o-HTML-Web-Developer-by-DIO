@@ -1,0 +1,166 @@
+-- TRABALHANDO O "CONTATOS" SOBRE A CLINICA
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dentinhos ( Contato ) </title>
+        <link rel="stylesheet" href="base.css">
+
+    <style> html, body {
+        margin: 0;
+    }
+    body {
+        background-color: lightblue;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .wrapper {
+        width: 1200px;
+        display: flex;
+        margin: 0 auto;
+        background-color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .main {
+        display: flex;
+        flex-flow: column;
+        width: 85%;
+
+    }
+    .menu {
+        width: 15%;
+        background-color:lightblue;
+        padding: 15px 15px 0px;
+        
+        
+    
+    }
+    .header {
+        min-height: 100px;
+    }
+    .content {
+        background-color: white;
+        min-height: 300px;
+        padding: 20px;
+    }
+    .footer {
+        background-color: rgb(121, 187, 231);
+        min-height: 150px;
+        text-decoration-color: cornsilk;
+        
+    }
+    Span {
+        color:cornflowerblue;
+        
+    }
+    table tr:hover td{
+        background-color: rgb(127, 139, 207);
+    }
+    table th{
+        background-color: lightblue;
+        
+    }
+    table {
+    margin-left: auto;
+    margin-right: auto;
+    }
+    fieldset{
+            margin: 5px 0;
+            border-radius: 10px;
+            border-color: cornflowerblue;
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+    <div class="wrapper">
+                    <div class="menu" style="text-align: center;"><!--important-- Aqui é a 'sub-pastinha' que vai o menu -->
+                                
+                                    
+                                    <p style="padding-top: 180px;"> <b> Navegação </b> </p>
+                                    <p><a href="Consultorio - Pagina Inicial.html" target="_self">Página Principal</a></p>
+                                    <p><a href="Consultorio - Sobre a Clinica.html" target="_self">Sobre a Clínica</a></p>
+                                    <p><a href="Consultorio - Horário de Atendimento.html">Horário de Atendimento</a></p>
+                                    <p><a href="#" target="_self">Contato</a></p>
+                                    
+                                
+                    </div>
+
+                    <div class="main"> <!-- Aqui é a 'sub-pastinha'para o header, conteúdo e footer -->
+                    <div class="header"> <!-- Aqui vai o seu header -->
+                
+                                <img title="Faça já uma avaliação" alt="Imagem com simbolos de telefone, @ e carta" width="" height=""  src="Imagens projeto consultorio/imagem fundo 4.jpg"/>
+
+                    </div>
+
+
+         
+                    <div class="content"> <!-- Aqui vai o seu conteúdo -->
+                                <h3 style="text-align: center;" ><span> Contato </span></h3>
+                                <div style="text-align: center;"><img src="Imagens projeto consultorio/Logo-sgv.svg" height="100"/> </div>
+                                
+                                <p style="text-align: center;"><span>Estamos ansiosos para ouvir de você! </span></p><br>
+                                             <p style="text-align: center;">Se você tiver alguma dúvida, precisar agendar uma consulta ou simplesmente quiser conversar sobre sua saúde bucal, não hesite em entrar em contato.</p><br>
+
+                                                <br><p style="text-align: center;"><span><b>Unidade Bairro Cruzeiro:</b></span></p>
+                                                <p><br><span>Telefone:</span> (11) 4002-7447<br>
+                                                <span>E-mail:</span> contato1@clinicadentinhos.com<br>
+                                                <span>Endereço:</span> Av. dos Autonomistas, 5477 - Bairro Cruzeiro, Osasco - SP, 06194-050, Brasil</p>
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d117061.3897137635!2d-46.88204498873287!3d-23.52644381348359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x94cefe4cf67a8b07%3A0x8a23d1798a7ca3e3!2sAv.%20dos%20Autonomistas%2C%205477%20-%20Km%2018%2C%20Osasco%20-%20SP%2C%2006194-050%2C%20Brasil!3m2!1d-23.5264533!2d-46.799648499999996!5e0!3m2!1spt-BR!2sat!4v1707667102399!5m2!1spt-BR!2sat" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+                                                <p><br></p>
+                                                <br><p style="text-align: center;"><span><b>Unidade Bairro Talatona:</b></span></p>
+                                                <p><br><span>Telefone:</span> (11) 3445-8850<br>
+                                                <span>E-mail:</span> contato2@clinicadentinhos.com<br>
+                                                <span>Endereço:</span>Av. Paulista, 2355 - Bairro Talatona, São Paulo - SP, 01311-300, Brasil</p>
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d117034.1933118523!2d-46.744313822746214!3d-23.557000391051798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x94ce582d46f5776d%3A0xb12e7e3f6ae17beb!2sHotel%20Ibis%20SP%20Paulista%2C%20Av.%20Paulista%2C%202355%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001311-300%2C%20Brasil!3m2!1d-23.557022099999998!2d-46.6619105!5e0!3m2!1spt-BR!2sat!4v1707667408655!5m2!1spt-BR!2sat" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+                                                <p><br></p>
+                                                
+                                                
+                                                <fieldset>
+                                                <p style="text-align: center;"><span><b>Formulário para contato:</b></span></p><br>
+                                                
+                                                <div class="row" style="text-align: center;">
+                                                <label>Nome:</label><input type="text" />
+                                                <label>Email:</label><input type="email"/>
+                                                <label>Assunto:</label><input type="text"/><br>
+                                                <br><label>Mensagem:</label>
+                                                <textarea rows="5" cols="80" name="message"></textarea>
+                                                <button type="submit">Enviar</button>
+                                                
+                                                </div> </fieldset>
+                                                <p><br></p>
+
+                                                <br><p style="text-align: center;">Nossa equipe está pronta para atendê-lo e cuidar do seu sorriso. Aguardamos sua mensagem! 🦷😊</p><br> 
+                                                 <p><small><a href="Consultorio - Pagina Inicial.html" target="_self"> Voltar para a Pagina Inicial </a></small></p>
+                                
+                            
+                
+                    </div>
+        
+
+
+                    <div class="footer" style="text-align: center;"> <!-- Aqui vai o seu rodapé -->
+                                    <p style="padding: 10px;"></p>
+                                 <h4 style="color:aliceblue;"> Venha fazer uma Avaliação!</h4>
+                                 <h4 style="color: aliceblue;"> Temos duas unidades disponiveis para melhor atendimento: </h4>
+
+                                 <p style="color: aliceblue;"><b> # Unidade Bairro Cruzeiro:</b><br>
+                                    Av. dos Autonomistas, 5477 - Bairro Cruzeiro, Osasco - SP, 06194-050, Brasil</p>
+                        
+                                 <p style="color: aliceblue;"><b># Unidade Bairro Talatona:</b><br>
+                                    Av. Paulista, 2355 - Bairro Talatona, São Paulo - SP, 01311-300, Brasil</p><br>
+                
+                    </div>
+                    </div>
+
+    </div>
+
+</body>
+</html>
