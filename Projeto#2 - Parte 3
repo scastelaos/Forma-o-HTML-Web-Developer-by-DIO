@@ -1,0 +1,168 @@
+-- TRABALHANDO "HORARIO DE ATENDIMENTO" SOBRE A CLINICA
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dentinhos ( Horário de Atendimento ) </title>
+        <link rel="stylesheet" href="base.css">
+
+    <style> html, body {
+        margin: 0;
+    }
+    body {
+        background-color: lightblue;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .wrapper {
+        width: 1200px;
+        display: flex;
+        margin: 0 auto;
+        background-color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .main {
+        display: flex;
+        flex-flow: column;
+        width: 85%;
+
+    }
+    .menu {
+        width: 15%;
+        background-color:lightblue;
+        padding: 15px 15px 0px;
+        
+        
+    
+    }
+    .header {
+        min-height: 100px;
+    }
+    .content {
+        background-color: white;
+        min-height: 300px;
+        padding: 20px;
+    }
+    .footer {
+        background-color: rgb(121, 187, 231);
+        min-height: 150px;
+        text-decoration-color: cornsilk;
+        
+    }
+    Span {
+        color:cornflowerblue;
+        
+    }
+    table tr:hover td{
+        background-color: rgb(127, 139, 207);
+    }
+    table th{
+        background-color: lightblue;
+        
+    }
+    table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    </style>
+
+</head>
+
+<body>
+    <div class="wrapper">
+                    <div class="menu" style="text-align: center;"><!--important-- Aqui é a 'sub-pastinha' que vai o menu -->
+                                
+                                    
+                                    <p style="padding-top: 180px;"> <b> Navegação </b> </p>
+                                    <p><a href="Consultorio - Pagina Inicial.html" target="_self">Página Principal</a></p>
+                                    <p><a href="Consultorio - Sobre a Clinica.html" target="_self">Sobre a Clínica</a></p>
+                                    <p><a href="#">Horário de Atendimento</a></p>
+                                    <p><a href="Consultorio - Contato.html" target="_self">Contato</a></p>
+                                    
+                                
+                    </div>
+
+                    <div class="main"> <!-- Aqui é a 'sub-pastinha'para o header, conteúdo e footer -->
+                    <div class="header"> <!-- Aqui vai o seu header -->
+                
+                                <img title="Faça já uma avaliação" alt="Imagem com calendários e relógios" width="" height=""  src="Imagens projeto consultorio/Imagem fundo 3.png"/>
+
+                    </div>
+
+
+         
+                    <div class="content"> <!-- Aqui vai o seu conteúdo -->
+                                <h3 style="text-align: center;" ><span> Horários de Atendimento </span></h3>
+                                <div style="text-align: center;"><img src="Imagens projeto consultorio/Logo-sgv.svg" height="80"/> </div>
+                                
+                                <p>Na <span>Clínica Dentinhos</span>, temos profissionais muito flexíveis e preços super acessiveis, tudo isso pensando em você!</p><br>
+                                             <p style="text-align: center;">Confira nossos Horários de Atendimento e Valores:</p><br>
+
+                                             <table>
+                                                <tr>
+                                                    <th> Serviços</th>
+                                                    <th> Seg. à Sex.</th>
+                                                    <th>Sábado</th>
+                                                    <th> Domingo e Feriados</th>
+                                                    <th> Valores </th>
+                                                </tr>
+                                                <tr>
+                                                    <td> Branqueamento Dentário</td>
+                                                    <td> 08h - 18h </td>
+                                                    <td>08h - 12h</td>
+                                                    <td> c/ Agendamento</td>
+                                                    <td> R$ 200,00</td>
+
+                                                </tr>
+                                                <tr>
+                                                    <td> Ortodontia</td>
+                                                    <td> 08h - 18h </td>
+                                                    <td> 14h - 21h</td>
+                                                    <td> c/ Agendamento</td>
+                                                    <td> R$ 680,00</td>
+
+                                                </tr>
+                                                <tr>
+                                                    <td> Prótese Dentária</td>
+                                                    <td> 09h - 21h </td>
+                                                    <td> 06h - 21h</td>
+                                                    <td> 06h - 21h </td>
+                                                    <td> R$ 333,00</td>
+
+                                                </tr>
+                                             </table>
+
+                                
+
+                                <br><p style="text-align: center;">Marque um agendamento na <span>Clínica Dentinhos</span> e sorria com confiança! 🦷😁</p><br> 
+                                <p><small><a href="Consultorio - Pagina Inicial.html" target="_self"> Voltar para a Pagina Inicial </a></small></p>
+                                
+                
+                
+                    </div>
+        
+
+
+                    <div class="footer" style="text-align: center;"> <!-- Aqui vai o seu rodapé -->
+                                    <p style="padding: 10px;"></p>
+                                 <h4 style="color:aliceblue;"> Venha fazer uma Avaliação!</h4>
+                                 <h4 style="color: aliceblue;"> Temos duas unidades disponiveis para melhor atendimento: </h4>
+
+                                 <p style="color: aliceblue;"><b> # Unidade Bairro Cruzeiro:</b><br>
+                                    Av. dos Autonomistas, 5477 - Bairro Cruzeiro, Osasco - SP, 06194-050, Brasil</p>
+                        
+                                 <p style="color: aliceblue;"><b># Unidade Bairro Talatona:</b><br>
+                                    Av. Paulista, 2355 - Bairro Talatona, São Paulo - SP, 01311-300, Brasil</p><br>
+                
+                    </div>
+                    </div>
+
+    </div>
+
+</body>
+</html>
